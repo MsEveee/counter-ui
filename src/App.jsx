@@ -1,16 +1,12 @@
 
-import Counter from './components/Counter'
+import Counter from "./components/Counter";
 
 function App() {
-
-
   return (
-    <>
-      <div className='m-0'>
-        <Counter />
-      </div>
-    </>
-  )
+    <div>
+    <Counter/>
+    </div>
+  );
 }
 
-export default App
+export default App;
